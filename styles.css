@@ -9,13 +9,11 @@ body {
 .header {
     text-align: center;
     font-family: 'Spectral', serif;
+    font-size: 110%;
     text-transform: uppercase;
     border-bottom: 1px solid #000;    
 }
 
-.header-image {
-    width=80%;
-}
 
 ul {
     text-align: left;
@@ -25,6 +23,14 @@ p {
     text-align: left;
 }
 
-p + ul {
+.smalltext {
     font-size: 90%;
+}
+
+.title {
+    margin: 0;
+}
+
+.subtitle {
+    margin: 0;
 }
