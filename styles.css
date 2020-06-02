@@ -1,0 +1,30 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Spectral', serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;    
+}
+
+.header-image {
+    width=80%;
+}
+
+ul {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+p + ul {
+    font-size: 90%;
+}
